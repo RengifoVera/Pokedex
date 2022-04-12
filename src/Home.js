@@ -3,6 +3,7 @@ import PokemonsThumbNail from './components/PokemonsThumbNail';
 import './home.css';
 
 function Home (){
+    
     const [allPokemons, setAllPokemon] = useState([])
     const [loadMore,setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20');
 
